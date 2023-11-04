@@ -1,0 +1,88 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+}
+*{
+    
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none
+}
+header{
+    background: #046c12;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+}
+header a{color: #fff;}
+header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;padding: 0;
+}
+#logo{
+    margin: 0 auto;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+#menu li{
+    padding: 10px;
+}
+nav li{
+    padding: 10px;
+}
+#main{
+    display: flex;
+}
+aside{
+    flex: 0 0 20vw;
+    background: #f0f0f0;
+}
+.services-container{
+    display: flex;
+    justify-content: space-between;
+}
+.service-box{
+    border: 1px solid #ccc;
+    flex-basis: 32%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.call-to-action{
+        align-self: flex-start;
+        margin-top: auto;
+}
+.call-to-action a{
+    background-color: gray;
+    color: #fff;
+    padding: 8px 13px;
+    display: block;
+
+}
+.service-box img{
+    width: 100%;
+}
+footer{
+    background-color: #046c12;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+article{
+    padding: 10px;
+}
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+aside li{
+    padding: 10px;border-bottom: 1px solid #ccc;
+}
+aside a{color: #046c12; }
